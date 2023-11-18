@@ -12,7 +12,7 @@ def pkl_it(model):
     pickle.dump(model, open('regmodel.pkl', 'wb'))
 
 def load_pkl(path):
-    pickled_model = pickle.load(open('regmodel.pkl', 'rb'))
+    pickled_model = pickle.load(open(path, 'rb'))
     return pickled_model
 
 def run_linear_regression():
