@@ -1,0 +1,5 @@
+This project involves the development of a fully encapsulated machine learning application, designed to provide an end-to-end solution from data processing to predictive analysis. The application is built in Python and utilizes a pre-trained machine learning model for generating insights or predictions.
+
+The core of the project is structured around a Python script (app.py) that acts as the backbone of the application, handling web requests and responses. The machine learning model, possibly a regression model given the regmodel.pkl file, is used to process input data and output predictions. This model has been serialized and stored as a .pkl file for easy loading and inference.
+
+To facilitate deployment and scaling, the application is containerized using Docker, with a Dockerfile specifying all the dependencies and configurations required to build the Docker image. This Docker image can then be used to run the application in any environment that supports Docker, ensuring consistency across different platforms and simplifying the deployment process.
