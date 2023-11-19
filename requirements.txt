@@ -1,5 +1,5 @@
 Flask
-sklearn
+scikit-learn
 numpy
-guincorn
+gunicorn
 requests
